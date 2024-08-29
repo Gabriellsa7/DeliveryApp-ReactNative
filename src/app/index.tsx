@@ -58,6 +58,7 @@ export default function Home() {
             action={() => router.push("/pages/restaurants")}
             size="text-2xl"
           />
+          {/* import restaurants list vertical component */}
           <RestaurantsVerticalList />
         </View>
       </ScrollView>

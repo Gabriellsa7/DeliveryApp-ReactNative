@@ -15,8 +15,9 @@ const SeeMore = () => {
     >
       <View className="w-full px-4" style={{ marginTop: statusBarHeight + 8 }}>
         <Text>See-more</Text>
+        <View></View>
         <Pressable
-          className="p-4 bg-red-300 rounded"
+          className="p-4 bg-red-300 rounded hover:cursor-pointer"
           onPress={() => router.push("/")}
         >
           <Text>Home</Text>
